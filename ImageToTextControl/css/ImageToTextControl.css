@@ -1,0 +1,34 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css";
+
+.DG.PC\.ImageToTextControl .text_result_style {
+    padding : 10px 0px 10px 0px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.DG.PC\.ImageToTextControl .camera_button_style {
+    margin : 10px 0px 10px 0px;
+    display: block;
+}
+
+.DG.PC\.ImageToTextControl .control_container {   
+    text-align: -webkit-center;
+}
+
+.DG.PC\.ImageToTextControl .ShowError>label{
+    display: block;
+    color: red;
+}
+
+.DG.PC\.ImageToTextControl .uploaded_image_style {
+    margin : 10px 0px 10px 0px;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+
+
+

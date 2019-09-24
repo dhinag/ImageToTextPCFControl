@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="DG.PC" constructor="ImageToTextControl" version="0.0.1" display-name-key="ImageToText Control" description-key="This control uses Computer Vision API of Cognitive Services to parse the text out of the uploaded image." control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="value" display-name-key="Image to Text Control" description-key="This control uses Computer Vision API of Cognitive Services to parse the text out of the uploaded image." of-type="Multiple" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/ImageToTextControl.css" order="1" />
+       <resx path="strings/ImageToTextControl.1033.resx" version="1.0.0" />    
+    </resources>    
+    <feature-usage>
+    <uses-feature name="Device.captureImage" required="true" />
+     </feature-usage>
+  </control>
+</manifest>
